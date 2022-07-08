@@ -1,0 +1,3 @@
+FROM java:8-alpine
+COPY ./team_manage.jar /tmp/team_manage.jar
+ENTRYPOINT java -jar /tmp/team_manage.jar

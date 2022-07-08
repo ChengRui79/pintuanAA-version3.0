@@ -1,0 +1,292 @@
+@charset "utf-8";
+/**/
+
+@media \0screen\,screen\9{
+    /*szga-header*/
+    .szga-header{background:#fff;height:80px;min-width:1100px;}
+	.szga-container{width:1200px;margin:0 auto;}
+	.szga-headContainer{height:80px;}
+	.logo{height:80px;display:inline-block;float:left;}
+	.szga-nav{float:left;height:76px;margin-left:30px;}
+	.szga-nav>li{float:left;padding:0 25px;}
+	.szga-nav>li>a{height:76px;line-height:76px;font-size:16px;color:#292929;display:inline-block;border-bottom:4px solid #fff;}
+	.szga-nav>li.active>a{color:#0D349A;border-bottom:5px solid #0D349A;font-weight:bold;}
+
+	.ipt{float:right;position:relative;margin-top:21px;}
+	.ipt input{width:190px;height:40px;line-height:40px;background:transparent;border:2px solid #0D349A;color:#bdbdbd;padding-left:10px;padding-right:30px;font-size:14px;box-sizing: border-box;}
+	.ipt .search-inp::-webkit-input-placeholder {color:#bdbdbd;}
+	.ipt .search-inp:-moz-placeholder {color:#bdbdbd;}
+	.ipt .search-inp::-moz-placeholder {color:#bdbdbd;}
+	.ipt .search-inp:-ms-input-placeholder {color:#bdbdbd;}
+	.ipt span{width:16px;height:36px;position:absolute;right:8px;top:2px;background:url(https://msjw.ga.sz.gov.cn/headfooter/ie_ic_nav_search_2019110.png) no-repeat center;cursor:pointer;}
+	.navbar_toggle{display:none;float:right;}
+	.down_icon{background:url(https://msjw.ga.sz.gov.cn/headfooter/down_icon_20171211.png) no-repeat center center;width:11px;height:7px;display:inline-block;vertical-align:middle;margin-left:3px;}
+	/*民生警务下拉箭头*/
+	.jwgks.msjws .szga-nav li.active .down_icon{background:url(https://msjw.ga.sz.gov.cn/headfooter/down_blicon_2019110.png) no-repeat center center;}
+	.jwgks.yhzxs .szga-nav li.active .down_icon{background:url(https://msjw.ga.sz.gov.cn/headfooter/down_blicon_2019110.png) no-repeat center center;}
+	/*民生警务下拉箭头*/
+	.toggle{display:none;}
+	.szga-nav>li{position:relative;}
+	.szga-nav>li:hover>a{color:#0D349A;font-weight:700;}
+	.szga-nav>li:hover>a>.down_icon{transform:rotate(180deg);background:url(https://msjw.ga.sz.gov.cn/headfooter/down_blicon_2019110.png) no-repeat center center;width:11px;height:7px;display:inline-block;vertical-align:middle;margin-left:3px;}
+	.toggle{position:absolute;top:80px;left:13px;z-index:9999;}
+	.toggle>li{text-align:center;width:100px;background-color:#fff;color:#333333;height:38px;line-height:38px;}
+	.toggle>li>a{width:100px;height:30px;color:#212121;font-size:14px;}
+	.toggle>li:hover a{color:#0D349A;font-weight:bold;}
+	/*当前位置*/
+	.sitemap{height:35px;line-height:35px;background:#fff;color:#999;border-bottom:1px solid #e3e3e3;font-size:14px;padding:0 15px;border-top:1px solid #e3e3e3;}
+	.sitemap a{color:#999;}
+
+	.currentLocation{background:#ecedef;}
+	.sitemap1{height:35px;line-height:35px;background:#ecedef;color:#999;border-bottom:1px solid #ccc;font-size:14px;padding:0 15px;}
+	.sitemap1 a{color:#999;}
+
+	/*footer*/
+	.szga-footer{background:#212121;height:104px;width:100%;line-height:26px;min-width:1100px;}
+	.szga-footer .copy{font-size:12px;margin-right:50px;}
+	.szga-footer .copy_contact{line-height:20px;}
+	.szga-footer a{font-size:12px;color:#616161;}
+	.szga-footerContainer{padding-top:16px;height:78px;}
+	.szga-footerIcon{padding-top:21px;}
+	.szga-footerIcon a{margin-right:10px;display:inline-block;}
+	/*.copy_left{margin-top:13px;}*/
+	.szga-footerIcon .szpa{margin-right:0;}
+	.szga-footer .ba-num {display:inline-block;margin-left:10px;text-decoration:none;height:20px;line-height:20px;color:#666;clear:both;}
+	.szga-footer .ba-num img {float:left;}
+	.zz_tj2018 a{display:none;}
+	.copy_left{width:455px;}
+	.copy_contact{width:400px;}
+	.szga-footerIcon{width:180px;}
+}
+
+@media screen and (min-width:783px){
+	/*szga-header*/
+	.szga-header{background:#fff;height:80px;min-width:1200px;}
+	.szga-container{width:1200px;margin:0 auto;}
+	.szga-headContainer{height:80px;}
+	.logo{height:80px;display:inline-block;float:left;}
+	.szga-nav{float:left;height:76px;margin-left:30px;}
+	.szga-nav>li{float:left;padding:0 25px;}
+	.szga-nav>li>a{height:76px;line-height:76px;font-size:16px;color:#292929;display:inline-block;border-bottom:4px solid #fff;}
+	.szga-nav>li.active>a{color:#0D349A;border-bottom:5px solid #0D349A;font-weight:bold;}
+
+	.ipt{float:right;position:relative;margin-top:21px;}
+	.ipt input{width:190px;height:40px;line-height:40px;background:transparent;border:2px solid #0D349A;color:#bdbdbd;padding-left:10px;padding-right:30px;font-size:14px;box-sizing: border-box;}
+	.ipt .search-inp::-webkit-input-placeholder {color:#bdbdbd;}
+	.ipt .search-inp:-moz-placeholder {color:#bdbdbd;}
+	.ipt .search-inp::-moz-placeholder {color:#bdbdbd;}
+	.ipt .search-inp:-ms-input-placeholder {color:#bdbdbd;}
+	.ipt span{width:32px;height:36px;position:absolute;right:0;top:2px;background:url(https://msjw.ga.sz.gov.cn/headfooter/ic_nav_search_2019110.png) no-repeat center;background-size:16px;}
+	.navbar_toggle{display:none;float:right;}
+	.down_icon{background:url(https://msjw.ga.sz.gov.cn/headfooter/down_icon_20171211.png) no-repeat center center;width:11px;height:7px;display:inline-block;vertical-align:middle;margin-left:3px;}
+	.toggle{display:none;}
+	/*民生警务下拉箭头*/
+	.jwgks.msjws .szga-nav li.active .down_icon{background:url(https://msjw.ga.sz.gov.cn/headfooter/down_blicon_2019110.png) no-repeat center center;}
+	.jwgks.yhzxs .szga-nav li.active .down_icon{background:url(https://msjw.ga.sz.gov.cn/headfooter/down_blicon_2019110.png) no-repeat center center;}
+	/*民生警务下拉箭头*/
+	.szga-nav>li{position:relative;}
+	.szga-nav>li:hover>a{color:#0D349A;font-weight:700;}
+	.szga-nav>li:hover>a>.down_icon{transform:rotate(180deg);background:url(https://msjw.ga.sz.gov.cn/headfooter/down_blicon_2019110.png) no-repeat center center;width:11px;height:7px;display:inline-block;vertical-align:middle;margin-left:3px;}
+	.toggle{position:absolute;top:80px;left:13px;z-index:9999;}
+	.toggle>li{text-align:center;width:100px;background-color:#fff;color:#333333;height:38px;line-height:38px;}
+	.toggle>li>a{width:100px;height:30px;color:#212121;font-size:14px;}
+	.toggle>li:hover a{color:#0D349A;font-weight:bold;}
+
+	/*当前位置*/
+	.sitemap{height:35px;line-height:35px;background:#fff;color:#999;border-bottom:1px solid #e3e3e3;font-size:14px;padding:0 15px;border-top:1px solid #e3e3e3;}
+	.sitemap a{color:#999;}
+
+	.currentLocation{background:#ecedef;}
+	.sitemap1{height:35px;line-height:35px;background:#ecedef;color:#999;border-bottom:1px solid #ccc;font-size:14px;padding:0 15px;}
+	.sitemap1 a{color:#999;}
+
+	/*footer*/
+	.szga-footer{background:#212121;height:110px;width:100%;line-height:26px;min-width:1200px;}
+	.szga-footer .copy{font-size:12px;margin-right:50px;}
+	.szga-footer .copy_contact{line-height:20px;}
+	.szga-footer a{font-size:12px;color:#616161;}
+	.szga-footerContainer{padding-top:16px;height:78px;}
+	.szga-footerIcon{padding-top:21px;}
+	.szga-footerIcon a{margin-right:10px;display:inline-block;}
+	/*.copy_left{margin-top:13px;}*/
+	.szga-footerIcon .szpa{margin-right:0;}
+	.szga-footer .ba-num {display:inline-block;margin-left:10px;text-decoration:none;height:20px;line-height:20px;color:#666;clear:both;}
+	.szga-footer .ba-num img {float:left;}
+	.copy_left{width:455px;}
+	.copy_contact{width:400px;}
+	.szga-footerIcon{width:180px;}
+}
+
+@media screen and (min-width:501px) and (max-width:792px){
+    /*szga-header*/
+    .szga-header{background:#fff;}
+	.logo{margin:0px 0px 0px 15px;display:inline-block;width:160px;}
+	.logo img{width:100%;}
+	.navbar_toggle{display:block;float:right;margin:13px;}
+	.szga-nav{background:#0D349A;overflow:hidden;position:absolute;width:100%;z-index:1000;}
+	.szga-nav li{width:100%;line-height:40px;display:none;padding-left:10px;border-top:1px solid #fff;}
+	.szga-nav a{color:#fff;}
+	.ipt{display:none;position:relative;margin-left:1.2%;padding:10px;}
+	.ipt input{width:96%;height:30px;border:1px solid #0D349A;padding-left:21px;}
+	.ipt span{position:absolute;right:18px;top:10px;width:32px;height:32px;display:inline-block;background:url(https://msjw.ga.sz.gov.cn/headfooter/ic_nav_search_2019110.png) no-repeat center;cursor:pointer;background-size:16px;background-size:16px;}
+	.szga-header em{width:27px;height:27px;display:inline-block;float:right;margin-top:12px;background:url(https://msjw.ga.sz.gov.cn/headfooter/ic_nav_search_2019110.png) no-repeat center;cursor:pointer;background-size:16px;}
+
+	.navbar_toggle .icon_bar{width:16px;height:2px;margin-top:5px;background:#0D349A;display:block;}
+	.toggle{display:none;}
+	.yhzx_list{display:none!important;}
+	.toggle a{width:90%;display:inline-block;}
+	.szga-nav .inactive{width:80%;display:inline-block;}
+	.szga-nav li{position:relative;}
+	.szga-nav .down_iphone{position:absolute;right:18px;background:url(https://msjw.ga.sz.gov.cn/headfooter/down_iphone_20171211.png) no-repeat center center;background-size: 50%;width: 30px;height: 30px;display: inline-block;margin-top:5px;}
+	/*当前位置*/
+	.sitemap{height:35px;line-height:35px;background:#fff;color:#999;border-top:1px solid #e3e3e3;font-size:14px;padding:0 15px;}
+	.sitemap a{color:#999;}
+
+    .sitemap1{height:35px;line-height:35px;background:#fff;color:#999;border-bottom:1px solid #e3e3e3;font-size:14px;padding:0 15px;border-top:1px solid #e3e3e3;}
+	.sitemap1 a{color:#999;}
+
+	/*footer*/
+	.szga-footer{background:#212121;height:auto;width:100%;text-align:center;overflow:hidden;}
+	.szga-footer .copy{font-size:16px;}
+	.szga-footer a{font-size:16px;color:#616161;}
+	.szga-footerContainer{padding-top:12px;}
+	.szga-footerIcon{padding:5px 0;}
+	.szga-footerIcon a{display:inline-block;margin-right:10px;}
+	.szga-footerIcon a img{width:100%;}
+	.szga-footerIcon a:last-child{margin-right:0;}
+	.copy_left{text-align:center;padding:0 10% 1% 10%;}
+	/*.copy_left span{display:none;}*/
+	/*.copy .p1{display:none;}*/
+	.copy p{margin-top:1%;}
+	.fl,.fr{float:none;}
+	.szga-footer .ba-num {display:inline-block;margin-left:10px;text-decoration:none;height:20px;line-height:20px;color:#666;clear:both;}
+	.szga-footer .ba-num img {float:left;}
+	/*底部部分隐藏*/
+	/*.szga-footer .copy_left span{display:none;}*/
+	.szga-footer .copy_link{display:none;}
+	/*.szga-footer .szga-footerIcon{display:none;}*/
+	.szga-footer .copy_left label{display:inline-block;margin-top:2px;}
+
+	/*KF*/
+	#_aics_trigger_wrapper_ {position:fixed;bottom:60px;right:25px;z-index:99999;box-sizing:border-box;}
+	.kf-layer {box-sizing:border-box;width:80px;cursor:pointer;height:80px;padding:4px 0px;background:#fff;border:1px solid #CFCFCF;text-align:center;}
+	.kf-layer img {position:absolute;left:0px;right:0px;top:4px;bottom:0px;margin:0 auto;width:65%;height:auto;}
+	.kf-layer i.close-btns {position:absolute;right:0px;top:0px;margin:auto;height:20px;width:20px;line-height:20px;font-size:16px;color:#ecedef;font-style:normal;font-family:'微软雅黑';border-radius:50%;z-index:9999;vertical-align:middle;background:url(https://msjw.ga.sz.gov.cn/headfooter/kf_close_icon.png) no-repeat center;background-size:100% 100%;}
+	.kf-layer span {position:absolute;left:0px;right:0px;bottom:-5px;font-weight:700;display:block;margin:auto;height:2em;font-size:14px;color:#292929;}
+}
+
+@media screen and (min-width:321px) and (max-width:500px){
+    /*szga-header*/
+    .szga-header{background:#fff;}
+	.logo{margin:0px 0px 0px 15px;display:inline-block;width:160px;}
+	.logo img{width:100%;}
+	.navbar_toggle{display:block;float:right;margin:13px;}
+	.szga-nav{background:#0D349A;overflow: hidden;position:absolute;width:100%;z-index:1000;}
+	.szga-nav li{width:100%;line-height:40px;display:none;padding-left:10px;border-top:1px solid #fff;}
+	.szga-nav a{color:#fff;}
+	.ipt{display:none;position:relative;margin-left:1.2%;padding:10px;}
+	.ipt input{width:96%;height:25px;border:1px solid #0D349A;padding-left:10px;}
+	.ipt span{position:absolute;right:20px;top:10px;width:16px;height:27px;display:inline-block;background:url(https://msjw.ga.sz.gov.cn/headfooter/ic_nav_search_2019110.png) no-repeat center;cursor:pointer;background-size:16px;}
+	.szga-header em{width:27px;height:27px;display:inline-block;float:right;margin-top:12px;background:url(https://msjw.ga.sz.gov.cn/headfooter/ic_nav_search_2019110.png) no-repeat center;cursor:pointer;background-size:16px;}
+
+	.navbar_toggle .icon_bar{width:16px;height:2px;margin-top:5px;background:#0D349A;display:block;}
+	.toggle{display:none;}
+	.yhzx_list{display:none!important;}
+	.toggle a{width:90%;display:inline-block;}
+	.szga-nav .inactive{width:80%;display:inline-block;}
+	.szga-nav li{position:relative;}
+	.szga-nav .down_iphone{position:absolute;right:18px;background:url(https://msjw.ga.sz.gov.cn/headfooter/down_iphone_20171211.png) no-repeat center center;background-size: 50%;width: 30px;height: 30px;display: inline-block;margin-top:5px;}
+    /*当前位置*/
+    .sitemap{height:35px;line-height:35px;background:#fff;color:#999;border-top:1px solid #e3e3e3;font-size:14px;padding:0 15px;}
+	.sitemap a{color:#999;}
+
+	.sitemap1{height:35px;line-height:35px;background:#fff;color:#999;border-bottom:1px solid #e3e3e3;font-size:14px;padding:0 15px;border-top:1px solid #e3e3e3;}
+	.sitemap1 a{color:#999;}
+
+    /*footer*/
+	.szga-footer{background:#212121;height:auto;width:100%;text-align:center;overflow:hidden;}
+	.szga-footer .copy{font-size:12px;}
+	.szga-footer a{font-size:12px;color:#616161;}
+	.szga-footerContainer{padding:15px 0;}
+	.szga-footerIcon{padding:5px 0;}
+	.szga-footerIcon a{display:inline-block;}
+	.szga-footerIcon a img{width:80%;}
+	.szga-footerIcon a:last-child{margin-right:0;}
+	.copy_left{text-align:center;padding:0 10% 0% 10%;}
+	/*.copy_left span{display:none;}*/
+	/*.copy .p1{display:none;}*/
+	.copy p{margin-top:1%;}
+	.fl,.fr{float:none;}
+	.szga-footer .ba-num {display:inline-block;margin-left:10px;text-decoration:none;height:20px;line-height:20px;color:#666;clear:both;}
+	.szga-footer .ba-num img {float:left;}
+
+	/*底部部分隐藏*/
+	/*.szga-footer .copy_left span{display:none;}*/
+	.szga-footer .copy_link{display:none;}
+	/*.szga-footer .szga-footerIcon{display:none;}*/
+	.szga-footer .copy_left label{display:inline-block;margin-top:5px;}
+
+	/*KF*/
+	#_aics_trigger_wrapper_ {position:fixed;bottom:60px;right:25px;z-index:99999;box-sizing:border-box;}
+	.kf-layer {box-sizing:border-box;width:80px;cursor:pointer;height:80px;padding:4px 0px;background:#fff;border:1px solid #CFCFCF;text-align:center;}
+	.kf-layer img {position:absolute;left:0px;right:0px;top:4px;bottom:0px;margin:0 auto;width:65%;height:auto;}
+	.kf-layer i.close-btns {position:absolute;right:0px;top:0px;margin:auto;height:20px;width:20px;line-height:20px;font-size:16px;color:#ecedef;font-style:normal;font-family:'微软雅黑';border-radius:50%;z-index:9999;vertical-align:middle;background:url(https://msjw.ga.sz.gov.cn/headfooter/kf_close_icon.png) no-repeat center;background-size:100% 100%;}
+	.kf-layer span {position:absolute;left:0px;right:0px;bottom:-5px;font-weight:700;display:block;margin:auto;height:2em;font-size:14px;color:#292929;}
+}
+@media (max-width:320px){
+    /*szga-header*/
+    .szga-header{background:#fff;}
+	.logo{margin:0px 0px 0px 15px;display:inline-block;width:160px;}
+	.logo img{width:100%;}
+	.navbar_toggle{display:block;float:right;margin:13px;}
+	.szga-nav{background:#0D349A;overflow:hidden;position:absolute;width:100%;z-index:1000;}
+	.szga-nav li{width:100%;line-height:40px;display:none;padding-left:10px;border-top:1px solid #fff;}
+	.szga-nav a{color:#fff;}
+	.ipt{display:none;position:relative;margin-left:1%;padding:10px;}
+	.ipt input{width:96%;height:25px;border:1px solid #0D349A;padding-left:8px;}
+	.ipt span{position:absolute;right:20px;top:10px;width:16px;height:27px;display:inline-block;background:url(https://msjw.ga.sz.gov.cn/headfooter/ic_nav_search_2019110.png) no-repeat center;cursor:pointer;background-size:16px;}
+	.szga-header em{width:27px;height:27px;display:inline-block;float:right;margin-top:12px;background:url(https://msjw.ga.sz.gov.cn/headfooter/ic_nav_search_2019110.png) no-repeat center;cursor:pointer;background-size:16px;}
+
+	.navbar_toggle .icon_bar{width:16px;height:2px;margin-top:5px;background:#0D349A;display:block;}
+	.toggle{display:none;}
+	.yhzx_list{display:none!important;}
+	.toggle a{width:90%;display:inline-block;}
+	.szga-nav .inactive{width:80%;display:inline-block;}
+	.szga-nav li{position:relative;}
+	.szga-nav .down_iphone{position:absolute;right:18px;background:url(https://msjw.ga.sz.gov.cn/headfooter/down_iphone_20171211.png) no-repeat center center;background-size: 50%;width: 30px;height: 30px;display: inline-block;margin-top:5px;}
+	/*当前位置*/
+	.sitemap{height:35px;line-height:35px;background:#fff;color:#999;border-top:1px solid #e3e3e3;font-size:14px;padding:0 10px;}
+	.sitemap a{color:#999;}
+
+	.sitemap1{height:35px;line-height:35px;background:#fff;color:#999;border-bottom:1px solid #e3e3e3;font-size:14px;padding:0 15px;border-top:1px solid #e3e3e3;}
+	.sitemap1 a{color:#999;}
+
+	/*footer*/
+	.szga-footer{background:#212121;height:auto;width:100%;text-align:center;}
+	.szga-footer .copy{font-size:12px;}
+	.szga-footer a{font-size:12px;color:#616161;}
+	.szga-footerContainer{padding:10px 0;overflow:hidden;}
+	.szga-footerIcon{padding:5px 0;}
+	.szga-footerIcon a{display:inline-block;}
+	.szga-footerIcon a img{width:80%;}
+	.szga-footerIcon a:last-child{margin-right:0;}
+	.copy_left{text-align:center;}
+	/*.copy_left span{display:none;}*/
+	/*.copy .p1{display:none;}*/
+	.szga-footer .ba-num {display:inline-block;margin-left:10px;text-decoration:none;height:20px;line-height:20px;color:#666;clear:both;}
+	.szga-footer .ba-num img {float:left;}
+
+	.fr,.fl{float:none;}
+    /*底部部分隐藏*/
+	/*.szga-footer .copy_left span{display:none;}*/
+	.szga-footer .copy_link{display:none;}
+	/*.szga-footer .szga-footerIcon{display:none;}*/
+	.szga-footer .copy_left label{display:inline-block;margin-top:2px;}
+
+	/*KF*/
+	#_aics_trigger_wrapper_ {position:fixed;bottom:60px;right:25px;z-index:99999;box-sizing:border-box;}
+	.kf-layer {box-sizing:border-box;width:80px;cursor:pointer;height:80px;padding:4px 0px;background:#fff;border:1px solid #CFCFCF;text-align:center;}
+	.kf-layer img {position:absolute;left:0px;right:0px;top:4px;bottom:0px;margin:0 auto;width:65%;height:auto;}
+	.kf-layer i.close-btns {position:absolute;right:0px;top:0px;margin:auto;height:20px;width:20px;line-height:20px;font-size:16px;color:#ecedef;font-style:normal;font-family:'微软雅黑';border-radius:50%;z-index:9999;vertical-align:middle;background:url(https://msjw.ga.sz.gov.cn/headfooter/kf_close_icon.png) no-repeat center;background-size:100% 100%;}
+	.kf-layer span {position:absolute;left:0px;right:0px;bottom:-5px;font-weight:700;display:block;margin:auto;height:2em;font-size:14px;color:#292929;}
+}
